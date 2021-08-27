@@ -11,7 +11,7 @@
 ## Agenda
 - What is DeepFakes
 - The DeepFakes Landscape
-- Key Feature Set :sparkles:
+- [Key Feature Set](https://github.com/raghavbali/deep_fakes_tutorial/tree/main/notebooks/hands_on_1) :sparkles:
 - The DeepFakes Workflow
 - GANs and Obama :sparkles:
 - Challenges
