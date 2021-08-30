@@ -14,7 +14,7 @@ def imread(idx):
     """
     img_tgt = plt.imread("data/landmarks/"+idx, format='RGB').astype(np.float)
     img_src = plt.imread("data/original/"+idx, format='RGB').astype(np.float)
-    return (img_src/127.5)-1, (img_tgt/127.5)-1
+    return img_src, img_tgt #(img_src/127.5)-1, (img_tgt/127.5)-1
 
 
 def _get_images(image_list, img_res=[256, 256], is_testing=False):
